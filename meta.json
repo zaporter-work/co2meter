@@ -1,0 +1,17 @@
+{
+  "module_id": "zack:co2meter",
+  "visibility": "public",
+  "url": "https://github.com/zaporter-work/co2meter",
+  "description": "Basic sensor implementation for co2meter.com CO2 monitors",
+  "models": [
+    {
+      "api": "rdk:component:sensor",
+      "model": "zack:co2meter:v1"
+    },
+    {
+      "api": "rdk:component:sensor",
+      "model": "zack:co2meter:v1-fake"
+    }
+  ],
+  "entrypoint": "./run.sh"
+}
